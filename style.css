@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: cursive;
+}
+#pagina-home{
+    height: 100vh;  /* vh adapta a imagem de acordo com o dispositivo */
+    background: linear-gradient(rgba(0, 0, 0, 0.466), rgba(93, 139, 122, 0.356)), url(../imagens/fundo.png);
+    background-size: cover;  /*ajusta a pag */
+    background-position: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 150px;
+}
+.menu-principal ul{
+    list-style: none;
+}
+
+.menu-principal ul li {
+display: inline-block;
+}
+
+.menu-principal ul li a{
+    color: white;
+    text-decoration:none;
+    text-transform: uppercase;
+padding: 5px 20px;
+border: 1px solid transparent;
+transition: 0.06s ease;
+}
+
+ .menu-principal ul li a:hover{ /* houver --> quando pausa o mouse em cima */
+    background-color: beige;
+    color: black;
+}
+
+.menu-principal ul li .link-ativo{
+    background:white;
+    color:black
+}
+
+h1{
+    font-size: 70px;
+    font-family: cursive;
+    color:aliceblue;
+    margin-bottom: 30px;
+}
+
+.btn{
+    border:1px solid wheat;
+    padding: 10px 80px;
+    color:bisque;
+    text-decoration: none;
+    transition: 0.6s ease;
+    margin: 20px;
+}
+.btn:hover{
+    background:rgb(72, 104, 81);
+    color:cornflowerblue;
+}
+
+#pagina-home main{
+    display: flex;
+    align-items: center;
+flex-direction: column;
+justify-content: center;
+height: 100%;
+}
+
+#pagina-servicos{
+   height: 60vh;  /* vh --> altura vertical */
+    padding-left: 20px;
+}
+
+table{
+    border: 1px solid black;
+    padding: 3px;
+    width: 50%;
+    text-align: center;
+    border-collapse:separate;
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+ 
+}
