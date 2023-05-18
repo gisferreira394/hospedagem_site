@@ -92,3 +92,18 @@ td{
     padding: 10px;
  
 }
+
+#pagina-servicos main{
+    display: flex;
+    align-items: center;
+flex-direction: column;
+justify-content: center;
+height: 100%;
+}
+th{
+    width: 50%;
+}
+tbody tr:nth-child(even){
+    background: #999999;
+}
+
