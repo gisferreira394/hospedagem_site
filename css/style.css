@@ -74,7 +74,8 @@ justify-content: center;
 height: 100%;
 }
 
-#pagina-servicos{
+#pagina-servicos,
+#pagina-galeria{
    height: 60vh;  /* vh --> altura vertical */
     padding-left: 20px;
 }
@@ -107,3 +108,41 @@ tbody tr:nth-child(even){
     background: #999999;
 }
 
+#pagina-galeria figure{
+    margin: 30px;
+    text-align: center;
+     filter: grayscale(0); /*deixar efeito preto e branco */
+     transition: 0.3s ease;
+}
+
+#pagina-galeria figure:hover{
+    filter: grayscale(1);
+}
+
+#pagina-galeria main{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.fotos{
+    width: 300px;
+    height: 200px;
+}
+
+#pagina-galeria figure img{
+border: 1px solid #000000;
+ padding: 5px; /* deixar espaço da borda */
+}
+
+#pagina-galeria figure figcaption{
+    background: #8ad6a4;
+    color:rgb(0, 0, 0);
+    padding: 5px;
+}
+
+#pagina-galeria{
+    background: linear-gradient(rgb(206, 225, 214), rgb(71, 117, 103));
+}
